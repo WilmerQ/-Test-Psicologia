@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      lang="es"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Aplicación test Pata Negra</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+        <!-- Bootstrap 3.3.6 -->
+        <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css"/>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
+        <!-- Theme style -->
+        <link rel="stylesheet" href="../css/dist/css/AdminLTE.min.css"/>
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+             folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="../css/dist/css/skins/_all-skins.min.css"/>
+    </h:head>
+    <h:body class="hold-transition skin-blue layout-boxed layout-top-nav">
+        <div class="wrapper">
+            <header class="main-header">
+                <nav class="navbar navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand"><b>DesaPsico</b> Aplicación de instrumento</a>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+
+                        <!-- Navbar Right Menu -->
+                        <div class="navbar-custom-menu">
+                            <ul class="nav navbar-nav">
+
+                                <!-- User Account Menu -->
+                                <li class="dropdown user user-menu">
+                                    <!-- Menu Toggle Button -->
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        
+                                        <!-- The user image in the navbar-->
+                                        <img src="../anexos/usuario-icono.png" class="user-image" alt="User Image"/>
+                                        <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                                        <!--<span class="hidden-xs">#{MbLogin.usuario.nombreCompleto}</span>-->
+                                        <span class="hidden-xs">#{MbRespuestaTest.u.nombreCompleto}</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <!-- The user image in the menu -->
+                                        <li class="user-header">
+                                            <img src="../anexos/usuario-icono.png" class="img-circle" alt="User Image"/>
+
+                                            <p>
+                                                <!--#{MbLogin.usuario.nombreCompleto}<br/>-->
+                                                #{MbRespuestaTest.u.nombreCompleto}<br/>
+                                                <!--<b><small>#{MbLogin.usuario.numeroIdentificacion}</small></b><br/>-->
+                                                <b><small>#{MbRespuestaTest.u.numeroIdentificacion}</small></b><br/>
+                                                <!--<small>#{MbLogin.usuario.email}</small>-->
+                                                <small>#{MbRespuestaTest.u.email}</small>
+                                            </p>
+                                        </li>
+                                        <!-- Menu Footer-->
+                                        <li class="user-footer">
+                                            <div class="pull-left">
+
+                                            </div>
+                                            <div class="pull-right">
+                                                <h:form>
+                                                    <h:commandLink styleClass="btn btn-default btn-flat" action="#{MbLogin.accionLogout()}" value="Cerrar Sesión" >
+                                                        <!--<i class="fa fa-sign-out pull-right"></i>-->
+                                                    </h:commandLink>
+                                                </h:form>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-custom-menu -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </header>
+            <!-- Full Width Column -->
+            <div class="content-wrapper">
+                <div class="container">
+                    <!-- Content Header (Page header) -->
+                    <section class="content-header">
+                        <h1>
+                            Test de Pata Negra
+                        </h1>
+                    </section>
+                    <!-- Main content -->
+                    <section class="content" style="alignment-adjust: central">
+                        <h:form id="form2">
+
+                            <div class="col-sm-12 col-md-11 col-lg-9" style="margin-left: 12%; margin-right: 12%">
+                                <div class="box box-info">
+                                    <div class="box-header with-border">
+                                        <h3 class="box-title"><b>Responda en el recuadro de texto<br/> 1)</b></h3>
+                                    </div>
+                                    <div class="box-body">
+                                        <h:panelGrid columns="2">
+                                            <h:column>
+                                                <p:graphicImage url="../anexos/patanegra/1.jpg" height="275px" width="389px"/>
+                                            </h:column>
+                                            <h:column>
+                                                <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta1}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                            </h:column>
+                                        </h:panelGrid>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>2)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/2.png" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta2}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>3)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/3.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta3}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>4)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/4.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta4}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>5)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/5.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta5}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>6)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/6.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta6}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>7)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/7.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta7}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>8)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/8.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta8}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>9)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/9.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta9}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>10)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/10.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta10}"  rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>11)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/11.png" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta11}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>12)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/12.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta12}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>13)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/13.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta13}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>14)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/14.png" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta14}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>15)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/15.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta15}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>16)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/16.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta16}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                        <div class="box box-info">
+                                            <div class="box-header with-border">
+                                                <h3 class="box-title"><b>17)</b></h3>
+                                            </div>
+                                            <!-- form start -->
+                                            <div class="box-body">
+                                                <h:panelGrid columns="2" >
+                                                    <h:column>
+                                                        <p:graphicImage url="../anexos/patanegra/17.jpg" height="275px" width="389px"/>
+                                                    </h:column>
+                                                    <h:column>
+                                                        <p:inputTextarea value="#{MbRespuestaTest.pataNegra.respuesta17}" rows="10" cols="45" placeholder="Ingrese su respuesta aquí."/>
+                                                    </h:column>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- /.box-body -->
+                                    <div class="box-footer">
+                                        <p:commandButton  class="btn btn-default" value="Cancelar" actionListener="#{MbRespuestaTest.resetTestPataNegra()}" update=":form2"/>
+                                        <p:commandButton class="btn btn-info pull-right" value="Guardar"  actionListener="#{MbRespuestaTest.accionGuardaPataNegra()}" update=":form2"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box -->
+
+                        </h:form>
+                    </section>
+                    <!-- /.content -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.content-wrapper -->
+            <!--<footer class="main-footer">
+                 <div class="container">
+                     <div class="pull-right hidden-xs">
+                         <b>Version</b> 2.3.7
+                     </div>
+                     <strong>Copyright copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
+                     reserved.
+                 </div>-->
+            <!-- /.container -->
+            <!--</footer>-->
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery 2.2.3 -->
+        <!--<script src="../css/plugins/jQuery/jquery-2.2.3.min.js"></script>-->
+        <!-- Bootstrap 3.3.6 -->
+        <script src="../css/bootstrap/js/bootstrap.min.js"></script>
+        <!-- SlimScroll -->
+        <script src="../css/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <!-- FastClick -->
+        <script src="../css/plugins/fastclick/fastclick.js"></script>
+        <!-- AdminLTE App -->
+        <script src="../css/dist/js/app.min.js"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="../css/dist/js/demo.js"></script>
+    </h:body>
+</html>

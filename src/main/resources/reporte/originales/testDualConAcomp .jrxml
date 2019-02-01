@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2017-08-09T15:24:02 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="testIpaSinacomp" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="753983ba-ed8d-41b3-9a74-652a78aeea44">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="nombreCompleto" class="java.lang.String"/>
+	<field name="numeroIdentificacion" class="java.lang.Long"/>
+	<field name="edad" class="java.lang.Long"/>
+	<field name="genero" class="java.lang.String"/>
+	<field name="estadoCivil" class="java.lang.String"/>
+	<field name="ocupacion" class="java.lang.String"/>
+	<field name="escolaridad" class="java.lang.String"/>
+	<field name="numeroPersonasConviven" class="java.lang.Long"/>
+	<field name="email" class="java.lang.String"/>
+	<field name="telefono" class="java.lang.String"/>
+	<field name="nit" class="java.lang.String"/>
+	<field name="nombreIntitucion" class="java.lang.String"/>
+	<field name="direccion" class="java.lang.String"/>
+	<field name="respuestaIpa1" class="java.lang.String"/>
+	<field name="respuestaIpa2" class="java.lang.String"/>
+	<field name="respuestaIpa3" class="java.lang.String"/>
+	<field name="respuestaIpa4" class="java.lang.String"/>
+	<field name="respuestaIpa5" class="java.lang.String"/>
+	<field name="respuestaIpa6" class="java.lang.String"/>
+	<field name="respuestaIpa7" class="java.lang.String"/>
+	<field name="respuestaIpa8" class="java.lang.String"/>
+	<field name="respuestaIpa9" class="java.lang.String"/>
+	<field name="respuestaIpa10" class="java.lang.String"/>
+	<field name="respuestaIpa11" class="java.lang.String"/>
+	<field name="respuestaIpa12" class="java.lang.String"/>
+	<field name="respuestaIpa13" class="java.lang.String"/>
+	<field name="respuestaIpa14" class="java.lang.String"/>
+	<field name="respuestaIpa15" class="java.lang.String"/>
+	<field name="respuestaIpa16" class="java.lang.String"/>
+	<field name="respuestaIpa17" class="java.lang.String"/>
+	<field name="respuestaIpa18" class="java.lang.String"/>
+	<field name="respuestaIpa19" class="java.lang.String"/>
+	<field name="respuestaIpa20" class="java.lang.String"/>
+	<field name="respuestaIpa21" class="java.lang.String"/>
+	<field name="respuestaIpa22" class="java.lang.String"/>
+	<field name="respuestaIpa23" class="java.lang.String"/>
+	<field name="respuestaIpa24" class="java.lang.String"/>
+	<field name="respuestaIpa25" class="java.lang.String"/>
+	<field name="respuestaIpa26" class="java.lang.String"/>
+	<field name="respuestaIpa27" class="java.lang.String"/>
+	<field name="respuestaIpa28" class="java.lang.String"/>
+	<field name="respuestaIpa29" class="java.lang.String"/>
+	<field name="respuestaIpa30" class="java.lang.String"/>
+	<field name="respuestaIpa31" class="java.lang.String"/>
+	<field name="respuestaIpa32" class="java.lang.String"/>
+	<field name="respuestaIpa33" class="java.lang.String"/>
+	<field name="respuestaIpa34" class="java.lang.String"/>
+	<field name="respuestaIpa35" class="java.lang.String"/>
+	<field name="respuestaIpa36" class="java.lang.String"/>
+	<field name="respuestaIpa37" class="java.lang.String"/>
+	<field name="respuestaIpa38" class="java.lang.String"/>
+	<field name="respuestaIpa39" class="java.lang.String"/>
+	<field name="respuestaIpa40" class="java.lang.String"/>
+	<field name="respuestaIpa41" class="java.lang.String"/>
+	<field name="respuestaIpa42" class="java.lang.String"/>
+	<field name="respuestaIpa43" class="java.lang.String"/>
+	<field name="respuestaIpa44" class="java.lang.String"/>
+	<field name="respuestaIpa45" class="java.lang.String"/>
+	<field name="respuestaIpa46" class="java.lang.String"/>
+	<field name="respuestaIpa47" class="java.lang.String"/>
+	<field name="respuestaIpa48" class="java.lang.String"/>
+	<field name="respuestaIpa49" class="java.lang.String"/>
+	<field name="respuestaIpa50" class="java.lang.String"/>
+	<field name="respuestaIpa51" class="java.lang.String"/>
+	<field name="respuestaIpa52" class="java.lang.String"/>
+	<field name="respuestaIpa53" class="java.lang.String"/>
+	<field name="respuestaIpa54" class="java.lang.String"/>
+	<field name="respuestaIpa55" class="java.lang.String"/>
+	<field name="respuestaIpa56" class="java.lang.String"/>
+	<field name="respuestaIpa57" class="java.lang.String"/>
+	<field name="respuestaIpa58" class="java.lang.String"/>
+	<field name="respuestaIpa59" class="java.lang.String"/>
+	<field name="respuestaIpa60" class="java.lang.String"/>
+	<field name="respuestaIpa61" class="java.lang.String"/>
+	<field name="respuestaIpa62" class="java.lang.String"/>
+	<field name="respuestaIpa63" class="java.lang.String"/>
+	<field name="respuestaIpa64" class="java.lang.String"/>
+	<field name="respuestaIpa65" class="java.lang.String"/>
+	<field name="respuestaIpa66" class="java.lang.String"/>
+	<field name="respuestaIpa67" class="java.lang.String"/>
+	<field name="respuestaIpa68" class="java.lang.String"/>
+	<field name="respuestaIpa69" class="java.lang.String"/>
+	<field name="respuestaIpa70" class="java.lang.String"/>
+	<field name="respuestaIpa71" class="java.lang.String"/>
+	<field name="respuestaIpa72" class="java.lang.String"/>
+	<field name="respuestaIpa73" class="java.lang.String"/>
+	<field name="respuestaIpa74" class="java.lang.String"/>
+	<field name="respuestaIpa75" class="java.lang.String"/>
+	<field name="numeroIdentificacionAcomp" class="java.lang.Long"/>
+	<field name="nombreAcomp" class="java.lang.String"/>
+	<field name="emailAcomp" class="java.lang.String"/>
+	<field name="telefonoAcomp" class="java.lang.String"/>
+	<field name="pregunta1" class="java.lang.String"/>
+	<field name="pregunta2" class="java.lang.String"/>
+	<field name="pregunta3" class="java.lang.String"/>
+	<field name="pregunta4" class="java.lang.String"/>
+	<field name="pregunta5" class="java.lang.String"/>
+	<field name="pregunta6" class="java.lang.String"/>
+	<field name="pregunta7" class="java.lang.String"/>
+	<field name="pregunta8" class="java.lang.String"/>
+	<field name="pregunta9" class="java.lang.String"/>
+	<field name="pregunta10" class="java.lang.String"/>
+	<field name="pregunta11" class="java.lang.String"/>
+	<field name="pregunta12" class="java.lang.String"/>
+	<field name="pregunta13" class="java.lang.String"/>
+	<field name="pregunta14" class="java.lang.String"/>
+	<field name="pregunta15" class="java.lang.String"/>
+	<field name="pregunta16" class="java.lang.String"/>
+	<field name="pregunta17" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="422" splitType="Stretch">
+			<staticText>
+				<reportElement x="108" y="8" width="344" height="30" uuid="597900fe-955b-46f3-a67a-9f77d68fe17d">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Informe de Resultado - Test IPPA & Pata Negra]]></text>
+			</staticText>
+			<image>
+				<reportElement x="14" y="-10" width="70" height="64" uuid="6a597abb-ade7-4ec8-aff1-d72218c705c6">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/ucclogo.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="470" y="-10" width="86" height="67" uuid="c1fe8c6a-5991-44cb-9381-99fee61e3c24">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/logogrupo.PNG"]]></imageExpression>
+			</image>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="260" y="40" width="100" height="20" uuid="35558fe2-da04-4a05-b850-ae1d936d2efe">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="160" y="40" width="100" height="20" uuid="c041e93d-523a-4abc-a087-f97cc774e9bc">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Generado:  ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="177" width="50" height="20" uuid="4ae563fe-76e5-4ff8-9713-fac4bdd3734b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teléfono:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="152" width="40" height="20" uuid="b391e357-df7f-48df-b5e1-86d2ab4b496f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="127" width="130" height="20" uuid="b2c3736d-09db-40e2-9c0d-0a03397a6063">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[# personas en el hogar: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="102" width="70" height="20" uuid="175113e3-3f69-47bd-8047-bbafbee1fdb6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Escolaridad: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="77" width="70" height="20" uuid="00d7b2e0-8dbc-48ba-b63d-818c7024859c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ocupación:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="57" width="193" height="20" uuid="d77129f3-477a-474b-85a9-ea5f8219b89b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Datos del aplicante ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="77" width="100" height="20" uuid="0b98b734-127e-4237-9bf8-8cb286bca216">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre completo: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="102" width="140" height="20" uuid="eca18aa7-afc0-4eca-8ec6-b5ea6527b742">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Número de identificación:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="127" width="40" height="20" uuid="22ff6074-2656-4c9e-bc52-627d75f604d0">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Edad: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="152" width="50" height="20" uuid="da981aef-237f-4986-9353-4ce33ae1bed9">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Genero:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="177" width="70" height="20" uuid="a222a0c6-b3f1-4f5f-8dd6-526d067725a7">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Estado civil:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="200" width="193" height="20" uuid="9e8fcd06-8b3d-4e1c-b93c-1ab38466e9d2">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Datos de la institución ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="225" width="34" height="20" uuid="0cf9ee90-7999-4b9d-adc8-c4b6bc2ac21c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nit:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="250" width="50" height="20" uuid="ee7aef21-12ab-40a8-9f19-2377a10fb671">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="280" width="60" height="20" uuid="7d6f1f6e-6d65-4e19-b178-3ef927c0029b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dirección:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="77" width="160" height="20" uuid="a7aa2a11-130d-4285-a223-bc467d87c161"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombreCompleto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="127" width="140" height="20" uuid="f0fca2ed-a006-4513-912c-356d0a9bbc0e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{edad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="102" width="120" height="20" uuid="01a1f19b-48f8-4b1d-bd67-ec419ab35a70"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroIdentificacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="152" width="140" height="20" uuid="ef111164-ec69-4957-a651-7fd377b25cfd"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{genero}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="177" width="140" height="20" uuid="fe706556-d65b-424e-8776-0d15e8313d56"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{estadoCivil}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="77" width="140" height="20" uuid="a852c62e-9eca-4209-83f1-bb79b8ec1a70"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ocupacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="102" width="140" height="20" uuid="cc2c8708-c025-4652-a5cc-bd9ac413cba3"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{escolaridad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="420" y="127" width="90" height="20" uuid="82919277-bdc0-4ada-a803-b68c5eb811a4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroPersonasConviven}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="152" width="170" height="20" uuid="7bcfa71b-b00b-4f57-afba-744c243eb1c9"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="177" width="160" height="20" uuid="0023be5e-9f12-47d3-ac15-3a8eb86e3b12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="45" y="225" width="440" height="20" uuid="b66771f4-3514-4f57-bd1f-f0df42eb0485"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="250" width="440" height="20" uuid="dd97e9bb-0a28-46bd-97df-b6c3a9109e19"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombreIntitucion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="280" width="440" height="20" uuid="92c6cb88-38d8-4c57-af67-7f038a58cb67"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{direccion}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="163" y="300" width="245" height="20" uuid="194abebf-c022-48fa-ad63-9d307bda5098">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Datos del acompañante (psicólogo)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="320" width="359" height="20" uuid="a08ea4ca-0067-4afa-a79f-3a811c6c1ad7"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroIdentificacionAcomp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="320" width="140" height="20" uuid="a371bba0-8016-4c4e-a50a-2b4d1f52c8a0">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Número de identificación:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="345" width="50" height="20" uuid="e00dafe1-755d-49a6-9251-9b27bda39c7a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="60" y="345" width="449" height="20" uuid="32a986e0-8788-4b98-9a00-46f21196a01a">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombreAcomp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="45" y="370" width="463" height="20" uuid="c0dfb975-9e0b-4b30-8d06-eae8c61fb2f7">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{emailAcomp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="7" y="370" width="40" height="20" uuid="52ce591e-f2af-4351-82de-fc1e5bc7c5cd">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="60" y="395" width="449" height="20" uuid="12e204ee-68bd-4618-bc82-021c0335ca83">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{telefonoAcomp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="8" y="395" width="50" height="20" uuid="5979cc13-ea8e-426f-862e-52cfb04a74e1">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teléfono:]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="363" splitType="Stretch">
+			<staticText>
+				<reportElement x="166" y="10" width="193" height="20" uuid="2f65b6bd-c61a-4138-a626-2d0fa19713cc">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Test IPPA]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="40" width="535" height="60" uuid="8cfaff14-8607-4cae-a645-b7e9abc0b947"/>
+			</rectangle>
+			<line>
+				<reportElement x="149" y="40" width="1" height="60" uuid="766367fc-6779-4e5b-a353-d2e8b35b7eff"/>
+			</line>
+			<line>
+				<reportElement x="234" y="40" width="1" height="60" uuid="ddb0325c-8e5f-4aa4-ab6b-3795a560f425"/>
+			</line>
+			<staticText>
+				<reportElement x="30" y="80" width="100" height="20" uuid="d9b56748-43bc-4aff-aab3-6af69d6da26b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Pregunta realizada ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="40" width="83" height="40" uuid="442c565d-86a2-46a6-a0bb-ba02f5d7ab3d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CASI NUNCA O NUNCA ES CIERTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="234" y="40" width="94" height="40" uuid="18abdeac-e0d1-431c-bef8-fd50105e173c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO MUY FRECUENTEMENTE ES CIERTO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="328" y="40" width="1" height="60" uuid="27053418-107a-4a06-98df-01328c130513"/>
+			</line>
+			<staticText>
+				<reportElement x="329" y="40" width="53" height="40" uuid="3badda0c-78ed-45f6-8c63-a04f97e7e975"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ALGUNAS VECES ES CIERTO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="381" y="40" width="1" height="60" uuid="e238c0f9-0aae-4ef6-8560-b6c5db5699ee"/>
+			</line>
+			<staticText>
+				<reportElement x="384" y="40" width="69" height="40" uuid="70421a56-ccf3-474b-b5d5-0dd914778128"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CON FRECUENCIA ES CIERTO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="453" y="40" width="1" height="60" uuid="e5095002-07aa-443e-8eb7-06ca5477a5c2"/>
+			</line>
+			<staticText>
+				<reportElement x="455" y="40" width="89" height="40" uuid="daf7e10d-13fe-4fb4-81d5-06a2c860e470"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CASI SIEMPRE O SIEMPRE ES CIERTO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="80" width="534" height="1" uuid="20c2c376-6a3b-4ca5-bbcf-34a05856576c"/>
+			</line>
+			<staticText>
+				<reportElement x="170" y="80" width="51" height="20" uuid="3f422c89-8d3a-43e9-9d64-0da730f19269"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="80" width="51" height="20" uuid="22cfa2a1-3464-4eb3-96d1-3a8ee42363d5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="255" y="81" width="51" height="20" uuid="29419456-726f-4f7c-bde8-5b23a832be42"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="80" width="51" height="20" uuid="06a34648-af33-4f29-b229-0225a39bea9d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="81" width="51" height="20" uuid="3348a584-acc6-4c6e-b2f1-895b3fa4fb1d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="120" width="250" height="20" uuid="6a583152-c9fb-44cb-a19b-8143cb4387b7"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.	Mi mama respeta mis sentimientos.    R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="100" width="193" height="20" uuid="ba528254-68e8-49f7-a857-63b96aa40a7f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Parte I]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="240" width="299" height="20" uuid="ee5ceabc-e6d8-483b-8151-edbfd422eb5f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.	Mi mamá sabe cuándo estoy molesto por algo. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="469" height="20" uuid="93d4b21e-ebbc-45a1-bb55-a3476bbe46da"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6.	Siento que no tiene sentido que mi mamá se de cuenta de lo que estoy sintiendo. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="200" width="454" height="20" uuid="a80b185c-9f44-45bc-b2cc-324e43209ccb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5.	Me gusta saber la opinión de mi mamá cuando hay cosas que me preocupan.   R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="180" width="250" height="20" uuid="3342ee83-5ee7-4393-9620-0f4d755b15d3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4.	Mi mamá me acepta tal y como soy.   R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="160" width="290" height="20" uuid="82f0be9e-78cf-4f2b-8cbb-ed339af67db0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.	Quisiera haber tenido una mamá diferente.   R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="140" width="377" height="20" uuid="ce1a1b96-c8d5-4ec4-a1b0-9eb43d30b642"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.	Siento que mi mama hace un buen trabajo siendo mi mamá. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="257" y="120" width="100" height="20" uuid="f688a152-25aa-436c-bae5-e58c8c0f0e50">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="377" y="140" width="100" height="20" uuid="08a89b23-1029-4ac9-9858-26c76651cd19">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="298" y="160" width="100" height="20" uuid="5afee9cc-64f7-4ff6-9127-7fb31eff852d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="256" y="180" width="100" height="20" uuid="93767cee-a909-4887-836b-e0045a33781b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="484" y="200" width="65" height="20" uuid="7f92276b-270b-44d9-a286-659fe88fc83b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="498" y="220" width="70" height="20" uuid="9da943ee-87f7-4a92-8cb9-cc7a73742d82">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="240" width="94" height="20" uuid="653a897a-5e84-4954-b0d5-948ac1d6a96e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa7}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="263" width="469" height="20" uuid="9ead0d33-f7fd-4be7-9425-35aaef2642d1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8.	Me siento avergonzado y tonto cuando hablo con mi mamá sobre mis problemas. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="503" y="263" width="51" height="20" uuid="cb2f0a56-0f6f-47dd-a9b9-4028d5c6c5de">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="247" y="283" width="94" height="20" uuid="0f2dd30d-7e9d-4cf0-ab0a-f4eb18edc8d5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa9}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="283" width="240" height="20" uuid="4288d036-cb5f-4149-8597-ace692871c00"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9.	Mi mama espera demasiado de mi.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="303" width="306" height="20" uuid="1b88be44-e14c-4303-9011-8ff758e1545c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10.	Cuando estoy con mi mamá me enojo fácilmente. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="328" y="303" width="104" height="20" uuid="74d765cb-f34d-4e2a-9fad-67214b1f654f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa10}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="323" width="420" height="20" uuid="cb474005-612b-4723-8d4f-36b8e4bfa272"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[11.	Me siento mal en muchas ms ocasiones de las que mi mamá se entera.  R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="451" y="323" width="104" height="20" uuid="57ddd395-962e-40d9-9724-71d010e4853b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa11}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="343" width="440" height="20" uuid="8faa84ab-1da8-4035-aa3f-8508781d5970">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[12.	Cuando discutimos sobre algo, mi mamá tiene en cuenta mi punto de vista. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="464" y="343" width="89" height="20" uuid="4d824fdd-9d6b-4d2a-a0ee-18ac4dea4978">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa12}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="802">
+			<staticText>
+				<reportElement x="0" y="160" width="390" height="20" uuid="5521491f-c81a-4bb7-97f8-1a25944968a2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[21.	Cuando tengo rabia por algo, mi mama trata de ser comprensiva. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="120" width="329" height="20" uuid="9692a9cb-9433-4990-beb5-ed65f774691e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[19.	Mi mamá me ayuda a hablar sobre mis dificultades.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="359" height="20" uuid="1f8934ec-f53f-4ad1-bf85-4e769e0f6a65"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[24.	Puedo contar con mi mamá cuando necesito desahogarme.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="200" width="390" height="20" uuid="e1946fce-92ba-465a-a023-2aca65613e6e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[23.	Mi mamá no entiende por lo que estoy pasando en este momento. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="180" width="182" height="20" uuid="fd2b1d51-d153-4806-aa55-08befeb25e56"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[22.	Yo confío en mi mamá. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="140" width="184" height="20" uuid="b72e4ba2-e2c6-41f3-9aec-c9846bec582a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[20.	Mi mama me entiende.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="240" width="440" height="20" uuid="8fb44918-2484-414f-8750-4bba8255b6fc"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[25.	Si mi mamá sabe que algo me está molestando, me pregunta sobre el tema.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="270" width="193" height="20" uuid="687a11c6-6210-4506-8927-6d6cc188abb9">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Parte II]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="300" width="234" height="20" uuid="6936278b-c70d-49ab-b2a4-0a645466c61d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.	mi papá respeta mis sentimientos.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="520" width="432" height="20" uuid="73aad455-6e34-4c13-b762-3b3b25058340"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[12.	cuando discutimos sobre algo, mi papá tiene en cuenta mi punto de vista. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="540" width="200" height="20" uuid="bf2484f7-94f8-4f58-8ffd-e25678436b68"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[13.	mi papá confía en mi juicio. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="500" width="390" height="20" uuid="ce8fcb95-4e39-4135-bf67-a764fa2826ca"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[11.	me siento mal en muchas ocasiones en las que mi papá se entera. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="480" width="305" height="20" uuid="93bf1682-8e03-44c1-b9fd-74ffb59919bb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10.	cuando estoy con mi papá me enojo fácilmente.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="460" width="230" height="20" uuid="7912738c-b56b-4d38-adac-fad686d49d07"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9.	mi papá espera demasiado de mi. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="440" width="469" height="20" uuid="30132fa8-2e0d-49ca-94b6-243889b8c3e8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8.	me siento avergonzado y tonto cuando hablo con mi papá sobre mis problemas.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="420" width="290" height="20" uuid="403fb259-795f-43a0-8173-7c2aa662512e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.	mi papá sabe cuándo estoy molesto por algo. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="400" width="455" height="20" uuid="52c204f3-5fb1-48db-8415-e3ea8e24a0c2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6.	siento que no tiene sentido que mi papá se de cuenta de lo que estoy sintiendo.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="380" width="440" height="20" uuid="a2cac76f-08e0-4c52-84ab-781bc4c068c4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5.	me gusta saber la opinión de mi papá cuando hay cosas que me preocupan. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="360" width="230" height="20" uuid="06b9e833-84c5-4ca3-b16d-dee2758904dd"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4.	mi papá me acepta tal como soy.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="340" width="270" height="20" uuid="90ed5be6-54eb-4f9f-bbd2-2f1fd9df8470"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.	quisiera haber tenido un papá diferente. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="320" width="359" height="20" uuid="70ef2192-da25-431e-85f9-3974d2d83139"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.	siento que mi papá hace un buen trabajo siendo mi mamá. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="334" y="120" width="104" height="20" uuid="412f5673-767f-4860-a435-8e9b21b7d9bf">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="184" y="140" width="104" height="20" uuid="9f85d94c-5ff3-438d-b68b-4e2e4c4ff6f4">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="160" width="104" height="20" uuid="1c9ef47b-fa42-445a-b6f2-1b25f7e3deb1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa21}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="180" width="104" height="20" uuid="93a856a8-8b46-4a6f-ae06-2b7e28d36a46">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="412" y="200" width="104" height="20" uuid="2c196c19-4580-428c-a30d-453de5a63857">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa23}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="386" y="220" width="104" height="20" uuid="62556221-f8b3-4f2b-8220-83a21165f420">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa24}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="477" y="240" width="71" height="20" uuid="d348c8f9-9783-4ca8-b4e1-2a405fa2bb0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa25}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="254" y="300" width="104" height="20" uuid="c63fda16-0365-4bab-9579-ba67be4325be">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa26}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="378" y="320" width="104" height="20" uuid="1432a381-498f-4ab0-9c46-5c0d84ff917f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa27}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="272" y="340" width="104" height="20" uuid="ff775650-fda6-4d23-a0b7-d0de658d1e0a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa28}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="247" y="360" width="104" height="20" uuid="2a21f3e6-a0db-441c-9e2e-6f22352276af">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa29}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="476" y="380" width="80" height="20" uuid="a094dfd9-247d-4e2b-8f43-c5bc01fdefc8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa30}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="489" y="400" width="66" height="20" uuid="3b51955c-0aa0-434c-a4fc-ed78e8d0bebc">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa31}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="302" y="420" width="104" height="20" uuid="7ba56c0b-d129-4ca2-b144-8b1fa0d58b78">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa32}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="494" y="440" width="67" height="20" uuid="90345d19-0c3a-49c5-bbd7-3159ec4a2427">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa33}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="241" y="460" width="104" height="20" uuid="02babe18-05af-4705-bf96-87f305fc3995">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa34}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="480" width="104" height="20" uuid="62ae5912-0720-493b-9236-8960ef354189">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa35}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="417" y="500" width="104" height="20" uuid="75e972d1-394a-41f6-a82e-5d29c23e6acc">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa36}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="459" y="520" width="89" height="20" uuid="9093b821-09e7-4db2-af97-8bffc80897dc">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa37}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="209" y="540" width="104" height="20" uuid="975aef27-8bef-4512-8037-725089657915">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa38}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="60" width="350" height="20" uuid="0a1e9a44-a8c6-47e3-948b-2bc5c9d26caf"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[16.	Le cuento a mi mamá sobre mis problemas y dificultades. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="40" width="333" height="20" uuid="ca72bf26-ac68-42df-8c65-32218a6a6121"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[15.	Mi mamá me ayuda a entenderme mejor a mí mismo. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="20" width="459" height="20" uuid="0b047e41-6ad8-4510-bb8b-12f9e8e9d893"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[14.	Mi mamá tiene sus propios problemas, y por eso yo no la molesto con los míos. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="210" height="20" uuid="15cd3743-a5b3-4353-b0fd-8c96e7356c94"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[13.	Mi mamá confía en mi juicio. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="80" width="210" height="20" uuid="8ccd4423-0def-411a-88f5-80153942ee53"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[17.	Siento rabia hacia mi mamá.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="100" width="270" height="20" uuid="7fad7db0-c333-4df9-8979-5baa5de8acb6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[18.	Mi mamá no me presta mucha atención.  R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="210" y="0" width="104" height="20" uuid="f0ef9302-25c0-4fb2-bc3e-47634b70008a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="488" y="20" width="68" height="20" uuid="f6f03f0e-baa3-4a8a-a2f3-a42fbcbd0f54">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="341" y="40" width="104" height="20" uuid="0d068474-e53f-4f4e-ba60-8b0154a75fd8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="377" y="60" width="104" height="20" uuid="435210bb-0927-44ed-940d-ab4622fc7afc">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="214" y="80" width="104" height="20" uuid="31b642be-a71f-48a7-a738-0a0919cf9a5a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="275" y="100" width="104" height="20" uuid="c70c1039-832a-4303-be90-c0fdf12b0c5e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa18}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="780" width="432" height="20" uuid="dfa3562f-d633-4d92-b128-05edb11004fc"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[25.	si mi papá sabe que algo me está molestando, me pregunta sobre el tema. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="760" width="349" height="20" uuid="db675c01-efa0-4d7b-ad6f-244c47a82bde"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[24.	puedo contar con mi papá cuando necesito desahogarme. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="740" width="299" height="20" uuid="81583c4d-013e-4a48-a51e-922bfee1c3a3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[23.	mi papá no entiende por lo que estoy pasando. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="720" width="170" height="20" uuid="8ddc34a2-10ff-4c6e-b64b-54e4d84cbcaa"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[22.	yo confío en mi papá. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="700" width="381" height="20" uuid="19a2139f-7ff7-45df-8182-9d71af4c2025"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[21.	cuando tengo rabia por algo, mi papá trata de ser comprensivo. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="660" width="313" height="20" uuid="d5d5bc98-0837-4e7a-8aa0-90b56f19350f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[19.	mi papá me ayuda a hablar sobre mis dificultades. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="680" width="171" height="20" uuid="ef4d3dae-c1b4-43c9-a0d6-7dfd736ec294"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[20.	mi papá me entiende. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="325" y="660" width="104" height="20" uuid="82847195-b20b-4496-9a4d-57e7dc944d76">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa44}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="178" y="680" width="104" height="20" uuid="cb484d97-5b43-49fe-be5d-906ef64955ac">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa45}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="700" width="104" height="20" uuid="b5836876-9299-4b26-9e33-d55017968716">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa46}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="176" y="720" width="104" height="20" uuid="319d85a0-cd1a-4566-8f1f-28a444c18a1a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa47}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="311" y="740" width="104" height="20" uuid="4baa2a6e-cf9e-498f-b422-e05df6e99cdf">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa48}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="760" width="104" height="20" uuid="f2327365-5849-4c79-95c4-772c11242de5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa49}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="463" y="780" width="89" height="20" uuid="94c94c2d-3df3-43e3-8984-59b20639fa7a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa50}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="274" y="640" width="104" height="20" uuid="dfa5ba18-cea9-4f2b-afb6-02a9512cd25c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa43}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="640" width="260" height="20" uuid="45bd49ff-daca-49bf-af9b-3f87669c656f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[18.	mi papá no me presta mucha atención. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="560" width="449" height="20" uuid="757cc0db-7a80-4a45-8265-b722fe58a596"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[14.	mi papá tiene sus propios problemas, y por eso yo no lo molesto con los míos. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="468" y="560" width="69" height="20" uuid="69a331d3-ed41-4a95-9b07-5ab7a019e8ab">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa39}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="580" width="329" height="20" uuid="5c4d2c50-d6bd-4d25-b178-e5e3ff93c72f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[15.	mi papá me ayuda a entenderme mejor a mí mismo. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="345" y="580" width="104" height="20" uuid="6f912a25-c8dc-49c5-9e00-201af296658a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa40}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="600" width="344" height="20" uuid="a39cb1fb-f024-4d98-92de-061ec3f4257c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[16.	le cuento a mi papá sobre mis problemas y dificultades.  R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="362" y="600" width="104" height="20" uuid="89ad8ab6-5aee-40b5-b450-236b0226088a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa41}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="620" width="200" height="20" uuid="62f45013-543c-4dfb-aea3-1729deca6469"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[17.	siento rabia hacia mi papá. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="222" y="620" width="104" height="20" uuid="a3dcc7be-5160-472f-88ee-52bc0bb762a0">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa42}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="801">
+			<staticText>
+				<reportElement x="0" y="120" width="234" height="20" uuid="59a005d1-0f15-43ff-b2eb-d551dcea3431"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5.	Desearía tener amigos diferentes.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="160" width="338" height="20" uuid="43a31149-c932-4e68-a362-a2daedc8559b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.	Mis amigos me animan a hablar sobre mis problemas. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="140" width="192" height="20" uuid="9bc4674b-ae0c-4d8e-bfc1-951f6bf45eaf"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6.	Mis amigos me entienden. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="360" width="296" height="20" uuid="dfe2fb75-d90e-4ce0-87d0-74159d58555a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[17.	Mis amigos se preocupan por cómo me siento.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="340" width="359" height="20" uuid="f0bc1cdc-ac1f-42dd-8f10-edbfa3128209"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[16.	Mis amigos me ayudan a entenderme mejor a mí mismo(a). R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="320" width="416" height="20" uuid="59fabb4c-75f1-4e53-b8c9-4e8a1b613b7f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[15.	Cuando tengo rabia por algo, mis amigos tratan de ser comprensivos.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="300" width="260" height="20" uuid="e0b9ad73-883a-4b03-b9f0-9afd0fea5027"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[14.	Me resulta fácil hablar con mis amigos.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="280" width="279" height="20" uuid="3c032611-ea54-4a28-a97d-eb6a963402d1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[13.	Siento que  mis amigos son buenos amigos. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="260" width="319" height="20" uuid="212204ce-2695-4e51-9c59-9459350e11b8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[12.	Mis amigos me escuchan cuando quiero decir algo. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="240" width="360" height="20" uuid="fd31a0c5-64a3-45a8-8820-6adc6b54e14b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[11.	Me siento solo(a) o aislado(a) cuando estoy con mis amigos.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="319" height="20" uuid="5bce7b18-db59-44d6-b674-de365b970d9f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10.	Mis amigos no entienden por lo que estoy pasando. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="200" width="431" height="20" uuid="21b30525-6b75-4174-8565-8766d4dc1210"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9.	Siento que necesito estar en contacto con mis amigos mucho más seguido. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="180" width="250" height="20" uuid="c821f770-aa22-4fef-a415-588962804639"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8.	Mis amigos me aceptan tal como soy. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="520" width="459" height="20" uuid="dfa918c7-25fb-46bb-a968-2746ab0743e1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[25.	Si mis amigos saben que algo me está molestando, me preguntan sobre el tema. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="500" width="369" height="20" uuid="bfa0e928-60a9-4182-8518-63b3fdb71b5d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[24.	Le puedo contar a mis amigos mis problemas y dificultades.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="480" width="416" height="20" uuid="54089550-4305-4225-a76d-71b4b325a9a0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[23.	Me parece que mis amigos están molestos conmigo sin razón aparente. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="460" width="436" height="20" uuid="955921a6-949d-4fce-ab51-24bcb7ef26f0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[22.	Me siento mal en muchas más ocasiones de las que mis amigos se enteran. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="440" width="258" height="20" uuid="fcabf60a-5744-4100-98b0-f5b4e03cfbd2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[21.	Mis amigos respetan mis sentimientos.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="420" width="190" height="20" uuid="b7a3a579-84bd-4e61-a94b-56fcd9a91b02"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[20.	Yo confío en mis amigos. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="400" width="369" height="20" uuid="044f67ae-2529-41c1-9587-b7a4d9df6273"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[19.	Puedo contar con mis amigos cuando necesito desahogarme.  R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="380" width="210" height="20" uuid="09689079-8e31-4373-969c-dae4d199b27c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[18.	Siento rabia con mis amigos.  R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="248" y="120" width="104" height="20" uuid="d2241c12-6691-4d20-a046-9c6cdee03f4d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa55}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="199" y="140" width="104" height="20" uuid="70fc33ad-ea08-4796-aebf-c6e90cf95973">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa56}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="346" y="160" width="104" height="20" uuid="e8cf3f8e-f9b2-4e8f-bec1-1d3291205f5b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa57}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="180" width="104" height="20" uuid="a6dabd5c-e1f3-4e20-b019-48e3c601f14c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa58}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="462" y="200" width="79" height="20" uuid="69c1846d-d8c6-43eb-bfb4-ee3e2e59bfab">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa59}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="339" y="220" width="104" height="20" uuid="224df2ad-5acb-49e4-bf94-b209f76b6b2a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa60}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="240" width="104" height="20" uuid="fccedfde-1dfe-472e-9010-bc7d27a5ad83">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa61}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="335" y="260" width="104" height="20" uuid="2ca65440-2e3c-46e3-867b-2ee707715ead">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa62}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="303" y="280" width="104" height="20" uuid="3eff8f8b-33a9-4953-a254-8de28d6fc2b9">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa63}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="285" y="300" width="104" height="20" uuid="dcfbe1b6-cc01-4616-a414-f8b3cc392d4c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa64}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="449" y="320" width="104" height="20" uuid="488c8944-d540-469a-9617-3f2779c8c4a2">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa65}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="384" y="340" width="104" height="20" uuid="d903ae76-7c80-4aae-8529-94837f0f82c5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa66}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="360" width="104" height="20" uuid="7ff6e8e0-8056-4668-acdd-0c4fb1384212">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa67}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="222" y="380" width="104" height="20" uuid="930ce0a7-7895-4aa6-9299-e4208308298d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa68}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="400" width="104" height="20" uuid="121047a7-72e3-4e78-962b-467b2891223e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa69}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="196" y="420" width="104" height="20" uuid="40169155-8342-42e3-834d-a3c9a8e63f96">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa70}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="268" y="440" width="104" height="20" uuid="a08b4f1f-e57a-419b-aa9f-9069d08cae1a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa71}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="469" y="460" width="90" height="20" uuid="b8334d60-bd29-4058-8fb0-dc355538b2f6">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa72}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="457" y="480" width="79" height="20" uuid="be3caebf-288b-4098-9227-87e69627715e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa73}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="388" y="500" width="104" height="20" uuid="c3da1450-edb4-4b3f-83ce-0024840f0902">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa74}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="494" y="520" width="66" height="20" uuid="de38925d-7d00-4a0a-bb22-5d74e840ca80">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa75}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-1" y="10" width="193" height="20" uuid="cfc989c7-fe6a-4d1b-865f-8894ded56a14">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Parte III]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="40" width="459" height="20" uuid="b7b4f8a2-ef37-49ef-98f3-7e82b729060e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.	Me gusta saber la opinión de mis amigos cuando hay cosas que me preocupan. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="60" width="363" height="20" uuid="d1a2da85-b497-45fa-8734-c676c1b39cd0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.	Mis amigos se dan cuenta cuando estoy molesto(a) por algo. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="80" width="459" height="20" uuid="8dbde3b6-d283-4127-be7a-56738a3eb97b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.	Cuando discutimos sobre algo mis amigos tienen en cuenta mi punto de vista. R/]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="100" width="484" height="20" uuid="53fdcbd9-85b9-458f-a61d-9c7b7d5107ea"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4.	Me siento avergonzado(a) y/o tonto(a) cuando cuento a mis amigos mis problemas. R/]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="486" y="40" width="64" height="20" uuid="8e1e7c2c-95ae-4f7a-9b56-9dfcfa0ff1eb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa51}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="388" y="60" width="104" height="20" uuid="c55f77d6-32ab-43ed-b08d-8f9d403bf88b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa52}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="80" width="76" height="20" uuid="14bbc5f6-064c-4e0e-89c6-cf060718424b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa53}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="504" y="100" width="56" height="20" uuid="f61b1599-997e-4016-9bef-85e927a0398c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respuestaIpa54}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="178" y="550" width="193" height="20" uuid="63dc1607-7270-4507-953e-597c7078484a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Test Pata Negra]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="610" width="194" height="137" uuid="ba630c5e-c7d3-446b-a42e-834ed2afc033">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/1.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="610" width="339" height="137" uuid="ae59f003-049d-4a80-bd2f-512194df3666"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="580" width="37" height="30" uuid="0ca74988-c265-41d6-a508-1aa0c42f9a1d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1)]]></text>
+			</staticText>
+		</band>
+		<band height="801">
+			<textField>
+				<reportElement x="200" y="20" width="339" height="137" uuid="f87eb5b6-2404-460a-976f-de5452363950"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta2}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="20" width="194" height="137" uuid="825c2edd-fdaf-48d8-9713-5e11e96a8c10">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/2.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="0" width="37" height="20" uuid="ca354da1-f053-421e-8c5a-387b72fefa7a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="178" width="194" height="137" uuid="a52ce908-6c18-4120-9743-bfd44381d2e1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/3.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="178" width="339" height="137" uuid="a78ad63f-c7a2-49db-a0be-019952fa8c2c"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta3}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="158" width="20" height="20" uuid="80040070-4050-4f95-8b20-3882f1ded7f3">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="338" width="194" height="137" uuid="89063609-d09d-4f38-b4f4-5620e4d5b0b2">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/4.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="338" width="339" height="137" uuid="4aeabb40-c10a-42d0-afc3-c3559dcc4d7c"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta4}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="318" width="20" height="20" uuid="a9cd54c1-2ea3-49be-b64b-07c3de6097cf">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="498" width="194" height="137" uuid="2857f248-84ba-47ec-8570-349d55f7b796">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/5.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="498" width="339" height="137" uuid="1c30672a-1d1a-40fc-a689-c9892240b3bd"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta5}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="478" width="20" height="20" uuid="5f38c57a-f9d8-42ee-91cd-d14de07344a0">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="658" width="194" height="137" uuid="816c79d9-5c93-419e-b15f-2e2d00b4d71b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/6.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="658" width="339" height="137" uuid="620b9aac-8961-42ba-8024-00fc10543394"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta6}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="638" width="20" height="20" uuid="4add8d80-6678-454b-a74c-74447c141813">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6)]]></text>
+			</staticText>
+		</band>
+		<band height="801">
+			<image>
+				<reportElement x="0" y="20" width="194" height="137" uuid="5910b520-42e1-4f45-b5d5-f2a2662a20e3">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/7.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="20" width="339" height="137" uuid="eaf2ac8a-2d5c-4ce8-9381-7bd15f6f03a7"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta7}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="20" height="20" uuid="b087396e-515f-404b-a8ed-527aa458e8c5">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="177" width="194" height="137" uuid="cdcf8cbe-bcab-48bb-acd5-8253ac8ac2c5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/8.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="177" width="339" height="137" uuid="95c5b248-1c95-42fb-baa9-523209af6652"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta8}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="157" width="20" height="20" uuid="a775bb54-f7a2-456a-a14c-9f30c16fc422">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="337" width="194" height="137" uuid="13663f82-baef-4352-84e2-572525aa5d48">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/9.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="337" width="339" height="137" uuid="2b9a062a-c865-400b-bee2-64e0022ade0b"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta9}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="317" width="20" height="20" uuid="03e361ef-ee78-4254-bdc9-9f5f12df0f90">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="497" width="194" height="137" uuid="1445b676-ef93-408f-b379-e427d96b7190">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/10.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="497" width="339" height="137" uuid="bfd87f93-c9b2-486d-9858-f5bd8ee0ae81"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta10}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="477" width="30" height="20" uuid="9c9e5b39-7ac3-4ed0-b0dd-7909fa48e6e4">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="657" width="194" height="137" uuid="7ae4c9ee-52fc-446e-91a0-d2c0e27a9de5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/11.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="657" width="339" height="137" uuid="3dbef626-47a4-41b3-86f8-639fdcdf8478"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta11}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="637" width="30" height="20" uuid="5246ef80-1344-4d6c-b895-2aa6f9f2caa6">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[11)]]></text>
+			</staticText>
+		</band>
+		<band height="801">
+			<image>
+				<reportElement x="0" y="20" width="194" height="137" uuid="0c816086-8372-4c8a-ab78-a243ebdd62cd">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/12.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="20" width="339" height="137" uuid="839df67a-5c88-4c70-a6f0-3791d770b366"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta12}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="28" height="20" uuid="63cfadf6-9362-4906-9908-275a2c8a0f71">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[12)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="200" y="177" width="339" height="137" uuid="fbc22e7b-8a4e-4185-9ad5-692c6d2a0cb3"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta13}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="177" width="194" height="137" uuid="c8768ef2-2519-49a0-af1b-1bb79cb44004">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/13.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="157" width="30" height="20" uuid="5832846b-cf28-4e38-b378-64ca2588ac40"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[13)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="314" width="28" height="20" uuid="4f94a789-7b42-4bc7-acca-d4b3ff855d0f">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[14)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="334" width="194" height="137" uuid="58bfbb43-f193-4660-a97c-fef835fbffe4">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/14.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="334" width="339" height="137" uuid="28316249-fc61-495c-a90b-f87831737f6b">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="490" width="339" height="137" uuid="3d510cdc-9153-43ff-9770-ffd28a9f1276">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta15}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="491" width="194" height="137" uuid="6ee3204d-ad66-46f6-86e7-12c9ddbc6522">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/15.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="471" width="30" height="20" uuid="9b561d27-4db6-416d-ad55-f196ba0450fe">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[15)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="648" width="194" height="137" uuid="93d9f7c7-b80f-489c-bb5e-e531979b5fe5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/16.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="200" y="648" width="339" height="137" uuid="58792a06-a779-49e2-91f0-7481f199215a">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta16}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="628" width="30" height="20" uuid="dd50d0ea-8bc7-4f88-a356-eef5f7a00292">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[16)]]></text>
+			</staticText>
+		</band>
+		<band height="157">
+			<textField>
+				<reportElement x="202" y="20" width="339" height="137" uuid="e000ffe8-d113-4be8-bcbf-2d72b856a145">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pregunta17}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="2" y="20" width="194" height="137" uuid="46520bdc-0ef3-450e-8834-49b3965dcef1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["/reporte/anexos/17.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="0" width="30" height="20" uuid="02f2cef4-7225-4d49-9101-c63648038830">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[17)]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
